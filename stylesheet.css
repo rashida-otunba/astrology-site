@@ -6,11 +6,41 @@ body{
         
         
 }
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 0.25fr 1fr 1fr 1fr 1fr;
+    margin-top:20px;
+   
+}
 .header-class{
     background-color:rgb(227,174,238);
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+    margin: 0;
+   
+}
+
+.zodiac-list{
+    width: 100%;
+    height: 0;
+    margin:auto;
+    padding-bottom: 100%;
+    text-align: center;
+    background-color: yellow;
+    background-color:rgb(227,174,238);
+  
+}
+
+.zodiac-list:hover{
+    background-color: aqua;
 }
 
 h3{
-    font-weight: 300;
+    font-weight: 600;
+    font-size: 20pt;
+
 }
 

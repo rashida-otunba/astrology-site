@@ -1,0 +1,16 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    
+        Max-width: 800px;
+        Margin: 0 auto;
+        
+        
+}
+.header-class{
+    background-color:rgb(227,174,238);
+}
+
+h3{
+    font-weight: 300;
+}
+
